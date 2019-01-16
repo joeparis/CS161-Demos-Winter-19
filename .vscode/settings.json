@@ -1,0 +1,6 @@
+{
+    "editor.fontSize": 18,
+    "terminal.integrated.fontSize": 18,
+    "python.pythonPath": "C:\\Users\\joepa\\AppData\\Local\\Programs\\Python\\Python37-32\\python.exe",
+    "python.linting.pylintEnabled": true
+}
