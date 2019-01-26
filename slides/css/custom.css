@@ -1,0 +1,12 @@
+p {
+  text-align: left;
+}
+
+.reveal kbd,
+.reveal code {
+  font-family: 'Source Code Pro', monospace;
+}
+
+.reveal code {
+  font-size: .8em;
+}
