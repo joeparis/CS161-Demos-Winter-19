@@ -14,7 +14,7 @@ def draw_target(bullseye_radius=25):
     Draws the target.
 
     Keyword Arguments:
-        bullseye_radius {int} -- radius of the yellow "bullseye" circle (default: {25})
+        bullseye_radius -- radius of the yellow "bullseye" circle (default: {25})
 
     All measurements used to draw the target are based off the supplied radius
     of the center, yellow circle.
