@@ -168,39 +168,35 @@
           <h3>Lists</h3>
         </section>
         <section>
-          <p>Write a Python program to sum all the items in a list.</p>
-          <div><small>3 minutes, save your program in a file named <code>program_1.py</code></small></div>
+          <p>Write a Python program to sum a list of numbers such as <kbd>[15,&nbsp;7,&nbsp;22,&nbsp;37,&nbsp;42]</kbd></p>
+          <p>If you finish early, write code to randomly generate the list of numbers, say ten integers between 1 and
+            1337.</p>
+          <div><small>10 minutes, save your program in a file named <code>program_1.py</code></small></div>
         </section>
         <section>
           <p>Write a Python program to convert a list of characters into a string.</p>
-          <div><small>3 minutes, save your program in a file named <code>program_2.py</code></small></div>
+          <div><small>10 minutes, save your program in a file named <code>program_2.py</code></small></div>
         </section>
         <section>
           <p>Write a Python program to get the largest number from a list.</p>
-          <div><small>3 minutes, save your program in a file named <code>program_3.py</code></small></div>
-        </section>
-        <section>
-          <p>Write a Python program to sum a list of numbers such as <kbd>[15,&nbsp;7,&nbsp;22,&nbsp;37,&nbsp;42]</kbd></p>
-          <p>If you finish early, write code to randomly generate the list of numbers, say ten integers between 0 and
-            1337.</p>
-          <div><small>5 minutes, save your program in a file named <code>program_4.py</code></small></div>
+          <div><small>10 minutes, save your program in a file named <code>program_3.py</code></small></div>
         </section>
         <section>
           <p>Write a Python program that accepts a comma separated sequence of words as input and prints the unique
             words sorted alphabetically.</p>
           <p>Sample Words: red, white, black, red, green, black<br>
             Expected Result : black, green, red, white</p>
-          <div><small>5 minutes, save your program in a file named <code>program_5.py</code></small></div>
+          <div><small>15 minutes, save your program in a file named <code>program_4.py</code></small></div>
         </section>
         <section>
           <p>Write a Python program to shuffle and print a specified list.</p>
-          <div><small>5 minutes, save your program in a file named <code>program_6.py</code></small></div>
+          <div><small>10 minutes, save your program in a file named <code>program_5.py</code></small></div>
         </section>
         <section>
           <p>Write a Python program to generate and print a list except for the first 5 elements, where the values are
             square of
             numbers between 1 and 30 (both included).</p>
-          <div><small>5 minutes, save your program in a file named <code>program_7.py</code></small></div>
+          <div><small>10 minutes, save your program in a file named <code>program_6.py</code></small></div>
         </section>
       </section>
       <section>
@@ -215,13 +211,16 @@
         </section>
         <section>
           <p>Write a program that reads the contents of the file named <kbd>simple_text.txt</kbd> and display them on
-            screen.</p>
-          <div><small>3 minutes, save your program in a file named <code>program_1.py</code></small></div>
+            screen, sorted in ascending (A&ndash;Z) order, case insensitively (but do not change the case of the
+            displayed words). Repeated words will appear in the list multiple times. Additionally, calculate and
+            display the average word length.</p>
+          <div><small>20 minutes, save your program in a file named <code>program_1.py</code></small></div>
         </section>
         <section>
           <p>Write a Python program that reads a set of floating-point numbers from a text file named <kbd>floats.txt</kbd>,
-            one number per line, and prints them in sorted order with only 2 decimal places.</p>
-          <div><small>10 minutes, save your program in a file named <code>program_2.py</code></small></div>
+            one number per line, and prints them to the screen in ascending order with 2 decimal places, one number per
+            lines.</p>
+          <div><small>15 minutes, save your program in a file named <code>program_2.py</code></small></div>
         </section>
         <section>
           <p>Write a Python program that reads a set of integers from a text file named <kbd>long_int.txt</kbd>,
@@ -229,23 +228,48 @@
             millions, etc.</p>
           <p>Sample Input: 30000000<br>
             Expected Result : 30,000,000</p>
-          <div><small>5 minutes</small></div>
+          <div><small>15 minutes, save your program in a file named <code>program_3.py</code></small></div>
         </section>
         <section>
-          <p>Write a Python program to create all possible strings by using &lsquo;a&rsquo;, &lsquo;e&rsquo;,
-            &lsquo;i&rsquo;, &lsquo;o&rsquo;, &lsquo;u&rsquo;. Use the characters
+          <p><strong>Bonus:</strong>Write a Python program to create all possible five-character strings using
+            &lsquo;a&rsquo;, &lsquo;e&rsquo;,
+            &lsquo;i&rsquo;, &lsquo;o&rsquo;, and &lsquo;u&rsquo;. Use the characters
             exactly once and write them in sorted order to a file named <kbd>permutations.txt</kbd>.</p>
           <p>Hint: see the <code>itertools</code> library.</p>
+          <div><small>20 minutes, save your program in a file named <code>program_4.py</code></small></div>
+        </section>
+      </section>
+      <section>
+        <section>
+          <h2>Programming Assignment 10</h2>
+          <h3>Modules</h3>
+        </section>
+        <section>
+          <p>For the following exercises, create a file named <code>mytools.py</code>. You will write the functions
+            necessary to solve each exercise in that file. You will then import it into each <code>problem_<i>x</i>.py</code>
+            file to demonstrate it in action.</p>
+        </section>
+        <section>
+          <p>In the <code>mytools</code> module, write a function, <code>create_random_tuple()</code>, that will create a tuple with between 10 and 20 (the size of the tuple is selected randomly when it is created) random integers in the range one to one hundred, inclusive and returns it to the caller. Write code in a file named <code>program_1.py</code> that tests <code>create_random_tuple</code>.</p>
+          <div><small>15 minutes</small></div>
+        </section>
+        <section>
+          <p>In the <code>mytools</code> module, write a function, <code>choose_random()</code>, that takes a tuple as an argument and returns a random element from it. Write code in a file named <code>program_2.py</code> that tests <code>choose_random</code>.</p>
+          <div><small>15 minutes</small></div>
+        </section>
+        <section>
+          <p>In the <code>mytools</code> module, write a function, <code>has_common_element()</code>, that takes two lists as arguments and returns <code>True</code> if the lists have at least one element in common. Import <em>only</em> that function into your code in a file named <code>program_3.py</code> that tests <code>has_common_element</code>.</p>
+          <div><small>15 minutes</small></div>
+        </section>
+        <section>
+          <p>In the <code>mytools</code> module, write a function, <code>filter_even()</code>, that takes a list as an argument and returns a new list containing the elements remaining from the first list after the even numbers have been removed. Import <em>only</em> that function into your code and give it an alias in a file named <code>program_4.py</code> that tests <code>filter_even</code> using a list with random numbers and words as elements.</p>
           <div><small>15 minutes</small></div>
         </section>
       </section>
       <section>
         <section>
-          <h2>Lists and Tuples</h2>
-        </section>
-        <section>
-          <p></p>
-          <div><small>10 minutes</small></div>
+          <h2>Programming Assignment 12</h2>
+          <h3>Objects</h3>
         </section>
       </section>
       <section>
